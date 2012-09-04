@@ -1,0 +1,91 @@
+body {
+	background-color: #f4f4f4;
+	font-family: Helvetica, 'sans_serif';
+}
+
+a {
+	color: #7dc27a;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li,
+#add-member {
+	border: 1px solid #ccc;
+	background-color: #fff;
+	list-style: none;
+	border-radius: 4px;
+	margin: 0;
+	padding: 6px;
+	margin-bottom: 3px;
+}
+
+li.header {
+	background: none;
+	border: none;
+	color: #666;
+}
+
+li span {
+	font-size: 14px;
+	display: inline-table;
+}
+
+li span.name {
+	width: 200px;
+}
+
+li span.type {
+	width: 100px;
+}
+
+li span.tickets {
+	width: 60px;
+	text-align: center;
+}
+
+li span.status {
+	width: 250px;
+}
+
+li span.email {
+	width: 200px;
+}
+
+#add-member {
+	display: none;
+}
+
+#add-member input {
+	outline: none;
+	border: none;
+	padding: 3px;
+}
+
+#add-member input:focus {
+	background-color: #e6ffe5;
+}
+
+#add-member #name {
+	width: 200px;
+	margin-right: 420px;
+}
+
+#add-member #email {
+	width: 200px;
+}
+
+#show-add {
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 4px;
+	margin: 0;
+	padding: 6px;
+	font-size: 16px;
+	line-height: 6px;
+	float: right;
+	cursor: pointer;
+}

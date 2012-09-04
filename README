@@ -1,0 +1,15 @@
+Club administration system
+
+Must haves:
+ - keep track of tickets
+ - add members
+ - multiple clubs
+
+Should haves:
+ - mail notifications and reminders to club members
+ - place remarks
+ - configuration panel for each club
+
+Could haves:
+ - last call for subscription and start the countdown
+ - repeat subscriptions (e.g. each thursday)
