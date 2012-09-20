@@ -2,8 +2,9 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	<title>Backbone test2</title>
+	<title>Backb1one test2</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<script data-main="js/main" src="js/lib/require/require.js"></script>
 </head>
 
 <body>
@@ -25,18 +26,12 @@
 		</li>
     </ul>
 
-    <script id="memberTemplate" type="text/template">
-        <span class="name"><%= name %></span>
-        <span class="type"><%= type %></span>
-        <span class="tickets"><%= tickets %></span>
-        <span class="status"><%= status %></span>
-        <span class="email"><a href="mailto:<%= email %>"><%= email %></a></span>
-    </script>
-
+	<!-- 
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="underscore.js"></script>
 	<script type="text/javascript" src="backbone.js"></script>
 	<script type="text/javascript" src="test2.js"></script>
-
+	-->
+	
 </body>
 </html>
